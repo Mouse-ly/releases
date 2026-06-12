@@ -6,7 +6,7 @@ Turn your iPhone into a wireless trackpad for your Windows PC. Swipe to move the
 
 ## Download
 
-**[Download Mousely for Windows](https://github.com/Mouse-ly/releases/releases/latest/download/Mouse-ly-Setup.exe)** (Windows 10/11)
+**[Download Mousely for Windows](https://github.com/Mouse-ly/mousely-windows-app/releases/latest/download/Mouse-ly-Setup.exe)** (Windows 10/11)
 
 You also need the iPhone app, free on TestFlight: **[testflight.apple.com/join/R3ykgp1m](https://testflight.apple.com/join/R3ykgp1m)**
 
