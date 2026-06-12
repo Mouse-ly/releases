@@ -1,4 +1,4 @@
-<p align="center"><img src="https://mouse.ly/images/ncB9MfbCzzT29Ji4MFmHJgZ1k.png" width="80" alt="Mousely"></p>
+<p align="center"><img src="assets/mousely-windows-icon.png" width="96" alt="Mousely"></p>
 
 # Mousely for Windows
 
