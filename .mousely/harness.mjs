@@ -21249,6 +21249,7 @@ async function verifyPullRequest(options) {
     }
   }
   const trustedManagedPaths = new Set((lock.generated_files ?? []).map((item) => String(item.path)));
+  trustedManagedPaths.add(String(asObject4(lock.harness, "context lock harness").path));
   const repoOwnedControlPlanePaths = /* @__PURE__ */ new Set();
   for (const entry of nameStatuses) {
     const deletingLegacyRootInstruction = entry.status === "D" && ["CLAUDE.md", "GEMINI.md"].includes(entry.path);

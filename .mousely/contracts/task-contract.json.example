@@ -2,7 +2,7 @@
   "schema_version": "TaskContract.v1",
   "id": "MLY-123",
   "created_at": "2026-08-22T00:00:00.000Z",
-  "source_revision": "c73ea1e51a06591bde21621aedd537f2eafb2fd6",
+  "source_revision": "6d6b210938f138ee5b087437acdbbbe4ddf380d6",
   "redaction_state": "clear",
   "source": { "kind": "linear", "id": "MLY-123", "instruction_authority": "task-request" },
   "request_receipt": { "kind": "signed-local", "id": "trusted-request-receipt-id", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },

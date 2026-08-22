@@ -2,7 +2,7 @@
   "schema_version": "TaskContract.v1",
   "id": "MLY-142",
   "created_at": "2026-08-22T04:00:00.000Z",
-  "source_revision": "c73ea1e51a06591bde21621aedd537f2eafb2fd6",
+  "source_revision": "6d6b210938f138ee5b087437acdbbbe4ddf380d6",
   "redaction_state": "clear",
   "source": {
     "kind": "direct",
@@ -12,7 +12,7 @@
   "request_receipt": {
     "kind": "github-event",
     "id": "github-pr:Mouse-ly/mousely-windows-app#1:MLY-142",
-    "sha256": "c4c9c8758c08d4fc8017572c11a7cde8d6f9421e2866961780a1f321065edd4a"
+    "sha256": "7231b7f529282d3051e95c9b65f9314a3af9435ab79243c74046dc640513c302"
   },
   "motivation": "Enable KARS and the Mousely Agent OS safely in this repository.",
   "intent": "Install the reviewed MLY-142 repository baseline without changing product behavior.",
@@ -66,7 +66,7 @@
   "base_branch": "main",
   "base_branch_sha": "d24317fd9143120615676810485b14373012853b",
   "dependencies": [
-    "Mouse-ly/mousely-ops@c73ea1e51a06591bde21621aedd537f2eafb2fd6"
+    "Mouse-ly/mousely-ops@6d6b210938f138ee5b087437acdbbbe4ddf380d6"
   ],
   "edit_scope": {
     "allowed_globs": [
@@ -95,8 +95,13 @@
       "other/**"
     ],
     "expected_change_classes": [
+      "api-cli-sdk",
+      "authentication-privacy",
+      "backend-runtime",
+      "configuration-ci",
       "documentation",
-      "configuration-ci"
+      "protocol-networking",
+      "release-publishing"
     ],
     "changed_file_alert_threshold": 80,
     "widening_gate": "human-only"
