@@ -2,7 +2,7 @@
 schema_version: MouselyContextSnapshot.v1
 generator_version: 0.1.0
 source_repository: Mouse-ly/mousely-ops
-source_revision: "6d6b210938f138ee5b087437acdbbbe4ddf380d6"
+source_revision: "abafc75fcaf4c72fe7675425fe3529f9868a5ca5"
 slice_id: "product/distribution-channels"
 scope: "org:mousely"
 source_path: "context/product/distribution-channels.md"

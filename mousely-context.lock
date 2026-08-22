@@ -2,7 +2,7 @@
   "schema_version": "ContextLock.v1",
   "id": "context-mousely-windows-app",
   "created_at": "2026-08-22T00:00:00.000Z",
-  "source_revision": "6d6b210938f138ee5b087437acdbbbe4ddf380d6",
+  "source_revision": "abafc75fcaf4c72fe7675425fe3529f9868a5ca5",
   "redaction_state": "clear",
   "organization_revision": "mousely-agent-os-v2",
   "context_revision": "windows-dist-context-v1",
@@ -17,7 +17,7 @@
       "source_path": "context/product/distribution-channels.md",
       "generated_path": "docs/ai/generated/product-distribution-channels.md",
       "content_sha256": "cdea0207184b47acf27afc96c5de7cdc581f0ac4a6bbc49c3510d07e972d5007",
-      "file_sha256": "06cca3001d93a988e27b4742ca6a5246d398c47c61db6130bd655a09ddd59be8"
+      "file_sha256": "405f5b51b05e0af2de0a2e08f8231c6607cff06ee462525c6d46e37a760144e2"
     },
     {
       "slice_id": "releases/branching-and-gates",
@@ -25,7 +25,7 @@
       "source_path": "context/releases/branching-and-gates.md",
       "generated_path": "docs/ai/generated/releases-branching-and-gates.md",
       "content_sha256": "372e766248da220b120ee5933acc925cde41d5283d6250dc8b08da560f7525f1",
-      "file_sha256": "6369624570ac2d42dd383f52bbedb77af6ffca4b3ec1a569acc538e377bcf075"
+      "file_sha256": "2b4062977d7d319a1a3287fba454da8d919a8a614ff976f80fa22ea8f7bf51d4"
     }
   ],
   "repository_owned_files": [
@@ -36,10 +36,10 @@
   "repository_owned_sections": [
     {
       "path": "AGENTS.md",
-      "start_marker": "<!-- GENERATED BLOCK START: Mouse-ly/mousely-ops@6d6b210938f138ee5b087437acdbbbe4ddf380d6 -->",
+      "start_marker": "<!-- GENERATED BLOCK START: Mouse-ly/mousely-ops@abafc75fcaf4c72fe7675425fe3529f9868a5ca5 -->",
       "end_marker": "<!-- GENERATED BLOCK END -->",
       "normalization": "lf",
-      "sha256": "1a59bbdf203e8de905e8faa86714f93038f37485378ed22d407736d4ff7006ce"
+      "sha256": "0db7a8393cb26097dbee6df3a4cd185c92b5bc565052866435dbde656df4101d"
     }
   ],
   "generated_files": [
@@ -73,7 +73,7 @@
     },
     {
       "path": ".codex/hooks.json",
-      "sha256": "19234a42555afc0b9fe79c6e56f2693ea5ba07eb01819578d5a5d557258daf99"
+      "sha256": "a86285f162c8aa3b8247dda34c948f221f6631aecae807a0036f028d51ef838d"
     },
     {
       "path": ".gitattributes",
@@ -81,7 +81,7 @@
     },
     {
       "path": ".github/CODEOWNERS",
-      "sha256": "be4869eaad13e270d428f63e983e1593daf1b72844128dd6c433905d22c77da1"
+      "sha256": "ee60da9109b3a6e67321cefba5dda9f80d54504fc71b4854fa7a9480e14a1917"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/agent-task.yml",
@@ -89,11 +89,11 @@
     },
     {
       "path": ".github/PULL_REQUEST_TEMPLATE.md",
-      "sha256": "5cd45022792eeeab2f12b94041548a3a84b3f6a700d3e9e922480f4b5b9e7d0a"
+      "sha256": "5aef2834e46e518fe90f109434a6660f284ab627810f5d115ee9ab84107870c6"
     },
     {
       "path": ".github/workflows/mousely-public-baseline.yml",
-      "sha256": "78c6972ec7ef7ab1711e8222f46e9d22088af2f8c4922d97fe7c286796f3b99e"
+      "sha256": "e6febcf59fc8aca2350e79b20b7c786a7172d425bd100060c43d03d8f6609afd"
     },
     {
       "path": ".mousely/.gitignore",
@@ -101,11 +101,11 @@
     },
     {
       "path": ".mousely/contracts/README.md",
-      "sha256": "b3360691bb84878ae0b925d99e2c1cab049f2abe2d7d85b7ebcb1fcc6c3931a3"
+      "sha256": "b54184fa491b506c00525c9b707e5beeb294604d7612e1f31afc0621d885e774"
     },
     {
       "path": ".mousely/contracts/task-contract.json.example",
-      "sha256": "bf2c0892882282ed50883b84e63bd285af4a764e4d32041c47c86b53790e466c"
+      "sha256": "eff1fea707df244699fb828024a747b2c6d0c2f7f81cefae903e2e828cb9b985"
     },
     {
       "path": ".mousely/public-leakage-check.mjs",
@@ -113,19 +113,19 @@
     },
     {
       "path": "docs/ai/generated/product-distribution-channels.md",
-      "sha256": "06cca3001d93a988e27b4742ca6a5246d398c47c61db6130bd655a09ddd59be8"
+      "sha256": "405f5b51b05e0af2de0a2e08f8231c6607cff06ee462525c6d46e37a760144e2"
     },
     {
       "path": "docs/ai/generated/releases-branching-and-gates.md",
-      "sha256": "6369624570ac2d42dd383f52bbedb77af6ffca4b3ec1a569acc538e377bcf075"
+      "sha256": "2b4062977d7d319a1a3287fba454da8d919a8a614ff976f80fa22ea8f7bf51d4"
     },
     {
       "path": "docs/ai/mousely-context.md",
-      "sha256": "96f8e47e36836e8c3ceb3de486f0290afbe8c33fef5ed5d3d27303d160c309cb"
+      "sha256": "dd7c6a751916f655c9254ae7e9a5911289d4ad4be5003ba431261311bc1ecfc8"
     },
     {
       "path": "mousely.repo.yaml",
-      "sha256": "0213ec561eff8bfc9f4c58825dfe64666759621c0c4f9c1422d1acb941acae57"
+      "sha256": "1fdc8148f15914f8a480ee5ccc9eaeb166946d740c7f985b7cbccca702547964"
     }
   ],
   "harness": {
@@ -144,7 +144,7 @@
     "expires_at": "2026-11-22T00:00:00.000Z"
   },
   "source_revisions": {
-    "Mouse-ly/mousely-ops": "6d6b210938f138ee5b087437acdbbbe4ddf380d6",
+    "Mouse-ly/mousely-ops": "abafc75fcaf4c72fe7675425fe3529f9868a5ca5",
     "Mouse-ly/mousely-windows-app": "d24317fd9143120615676810485b14373012853b"
   }
 }

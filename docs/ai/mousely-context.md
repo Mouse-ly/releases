@@ -1,5 +1,5 @@
 ---
-generated_from: Mouse-ly/mousely-ops@6d6b210938f138ee5b087437acdbbbe4ddf380d6
+generated_from: Mouse-ly/mousely-ops@abafc75fcaf4c72fe7675425fe3529f9868a5ca5
 context_revision: windows-dist-context-v1
 organization: Mouse-ly
 repository: mousely-windows-app

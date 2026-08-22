@@ -2,7 +2,7 @@
   "schema_version": "TaskContract.v1",
   "id": "MLY-142",
   "created_at": "2026-08-22T04:00:00.000Z",
-  "source_revision": "6d6b210938f138ee5b087437acdbbbe4ddf380d6",
+  "source_revision": "abafc75fcaf4c72fe7675425fe3529f9868a5ca5",
   "redaction_state": "clear",
   "source": {
     "kind": "direct",
@@ -12,7 +12,7 @@
   "request_receipt": {
     "kind": "github-event",
     "id": "github-pr:Mouse-ly/mousely-windows-app#1:MLY-142",
-    "sha256": "7231b7f529282d3051e95c9b65f9314a3af9435ab79243c74046dc640513c302"
+    "sha256": "97e90462b30b7b6cb79fefc5d50b2f9854bdd691630dc4131d6ab4ad315762f0"
   },
   "motivation": "Enable KARS and the Mousely Agent OS safely in this repository.",
   "intent": "Install the reviewed MLY-142 repository baseline without changing product behavior.",
@@ -66,7 +66,7 @@
   "base_branch": "main",
   "base_branch_sha": "d24317fd9143120615676810485b14373012853b",
   "dependencies": [
-    "Mouse-ly/mousely-ops@6d6b210938f138ee5b087437acdbbbe4ddf380d6"
+    "Mouse-ly/mousely-ops@abafc75fcaf4c72fe7675425fe3529f9868a5ca5"
   ],
   "edit_scope": {
     "allowed_globs": [
