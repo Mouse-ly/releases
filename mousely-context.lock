@@ -1,0 +1,150 @@
+{
+  "schema_version": "ContextLock.v1",
+  "id": "context-mousely-windows-app",
+  "created_at": "2026-08-22T00:00:00.000Z",
+  "source_revision": "c73ea1e51a06591bde21621aedd537f2eafb2fd6",
+  "redaction_state": "clear",
+  "organization_revision": "mousely-agent-os-v2",
+  "context_revision": "windows-dist-context-v1",
+  "target_repository": {
+    "repository": "Mouse-ly/mousely-windows-app",
+    "revision": "d24317fd9143120615676810485b14373012853b"
+  },
+  "context_slices": [
+    {
+      "slice_id": "product/distribution-channels",
+      "scope": "org:mousely",
+      "source_path": "context/product/distribution-channels.md",
+      "generated_path": "docs/ai/generated/product-distribution-channels.md",
+      "content_sha256": "cdea0207184b47acf27afc96c5de7cdc581f0ac4a6bbc49c3510d07e972d5007",
+      "file_sha256": "ce1b8ee53979de8d0a945a9ebe37e05a04df3b0615912670cbb1360c3a2cef3d"
+    },
+    {
+      "slice_id": "releases/branching-and-gates",
+      "scope": "org:mousely",
+      "source_path": "context/releases/branching-and-gates.md",
+      "generated_path": "docs/ai/generated/releases-branching-and-gates.md",
+      "content_sha256": "372e766248da220b120ee5933acc925cde41d5283d6250dc8b08da560f7525f1",
+      "file_sha256": "118cc5938ee12eda832394bb2a3709ad878796bfa7ecc2f8771569326b435fca"
+    }
+  ],
+  "repository_owned_files": [
+    "AGENTS.md",
+    "docs/ai/architecture.md",
+    "docs/ai/verification.md"
+  ],
+  "repository_owned_sections": [
+    {
+      "path": "AGENTS.md",
+      "start_marker": "<!-- GENERATED BLOCK START: Mouse-ly/mousely-ops@c73ea1e51a06591bde21621aedd537f2eafb2fd6 -->",
+      "end_marker": "<!-- GENERATED BLOCK END -->",
+      "normalization": "lf",
+      "sha256": "3fae8cae1806c1e3c2dbbcb4ef7e7518b49598c3657193743c73f83beb36c3ac"
+    }
+  ],
+  "generated_files": [
+    {
+      "path": ".agents/THIRD_PARTY_NOTICES.md",
+      "sha256": "68dafb00e81506ab9f5363818864234a552d9282c7a71b4f6a744499d1a944c1"
+    },
+    {
+      "path": ".agents/skills/mousely-context-smoke/SKILL.md",
+      "sha256": "9a1790b83276aedceb46a1a53d25b4fdd2ec5c8ecd2ba9b8030fc7a23f1935c2"
+    },
+    {
+      "path": ".agents/skills/mousely-context-smoke/agents/openai.yaml",
+      "sha256": "d0290d0ec5704138e2f82b1038165af4c7c4d709acb2d09639022ca4039a4497"
+    },
+    {
+      "path": ".agents/skills/mousely-intake/SKILL.md",
+      "sha256": "d6038ed406a60ebbcff2c6d682fc288f00eb9f40f728dd17923bb209147d61d1"
+    },
+    {
+      "path": ".agents/skills/mousely-intake/agents/openai.yaml",
+      "sha256": "2bcc0806315e3b2493c50b98b4c885b467438e1183d4ecc571a668d1fdcfeb37"
+    },
+    {
+      "path": ".agents/skills/mousely-proof-bundle/SKILL.md",
+      "sha256": "d768b7693e05c10cc7b2d95fbb1ee32f4b4c7539f60fcddb8011c7bd22bbb115"
+    },
+    {
+      "path": ".agents/skills/mousely-proof-bundle/agents/openai.yaml",
+      "sha256": "63dc9fe9ca14510915bf9b31ea19e7bab36b4e9dd927a91a490be7f3991e8d46"
+    },
+    {
+      "path": ".codex/hooks.json",
+      "sha256": "04cc6cfc740ed28cdce776bdf3a74b371f10c4560683a6ceece02b31f069d8f1"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "14f44b03c3eb35fbe777df512e546c7f3bef50b85770b5e6dfc0192f92bea803"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha256": "572f7cfdaccffc6b9637b32df41e9c53539198a352bd28366e60538723fc8fe7"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/agent-task.yml",
+      "sha256": "c925880f5a898087b1e8b5b9b16a8c49e73c6bc6203238c56151c8e85878cde1"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "d3311cb85102d69dd1cc7973b9b8dd5289f670fbac6b37b83f3470e27a6730ab"
+    },
+    {
+      "path": ".github/workflows/mousely-public-baseline.yml",
+      "sha256": "78c6972ec7ef7ab1711e8222f46e9d22088af2f8c4922d97fe7c286796f3b99e"
+    },
+    {
+      "path": ".mousely/.gitignore",
+      "sha256": "8a69f0a34199d26a28cf1f32d0e87d432e07f5fd2c28894f9d726f71fedc7f3c"
+    },
+    {
+      "path": ".mousely/contracts/README.md",
+      "sha256": "b3360691bb84878ae0b925d99e2c1cab049f2abe2d7d85b7ebcb1fcc6c3931a3"
+    },
+    {
+      "path": ".mousely/contracts/task-contract.json.example",
+      "sha256": "fc4a17ab18299f2794189652f8dc46116d8407286f71e0fb7cb58b6291663ede"
+    },
+    {
+      "path": ".mousely/public-leakage-check.mjs",
+      "sha256": "20361c941050c6ab5e3e535428b89c20e0c98231df9dfc9e004d1b1f4d3d59d6"
+    },
+    {
+      "path": "docs/ai/generated/product-distribution-channels.md",
+      "sha256": "ce1b8ee53979de8d0a945a9ebe37e05a04df3b0615912670cbb1360c3a2cef3d"
+    },
+    {
+      "path": "docs/ai/generated/releases-branching-and-gates.md",
+      "sha256": "118cc5938ee12eda832394bb2a3709ad878796bfa7ecc2f8771569326b435fca"
+    },
+    {
+      "path": "docs/ai/mousely-context.md",
+      "sha256": "4fc28a568b134194d35616a3d149218240e2894bb9e879c7caf93e43e68e03ad"
+    },
+    {
+      "path": "mousely.repo.yaml",
+      "sha256": "40704b472abbbb58388845e09102bb8cd087565034c7010095247ada77b97b12"
+    }
+  ],
+  "harness": {
+    "path": ".mousely/harness.mjs",
+    "sha256": "de76d34c222273297e171d4891fab5931e179e24ab2462daf7a84c1a2c09821a"
+  },
+  "shared_skill_versions": {
+    "mousely-intake": "1.0.0",
+    "mousely-context-smoke": "1.0.0",
+    "mousely-proof-bundle": "1.0.0"
+  },
+  "protocol_contracts": [],
+  "brand_assets": [],
+  "freshness": {
+    "verified_at": "2026-08-22T00:00:00.000Z",
+    "expires_at": "2026-11-22T00:00:00.000Z"
+  },
+  "source_revisions": {
+    "Mouse-ly/mousely-ops": "c73ea1e51a06591bde21621aedd537f2eafb2fd6",
+    "Mouse-ly/mousely-windows-app": "d24317fd9143120615676810485b14373012853b"
+  }
+}

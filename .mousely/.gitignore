@@ -1,0 +1,10 @@
+# Local runtime state; committed PR contracts under contracts/ remain tracked.
+task-contract.json
+preflight-receipt.json
+capabilities.json
+runs/
+leases/
+dry-run/
+wrangler-dry-run/
+wrangler-dry-run.*
+*.tmp

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mousely Context Smoke"
+  short_description: "Verify locked context and trust boundaries"
+  default_prompt: "Use $mousely-context-smoke to verify this repository context before work begins."

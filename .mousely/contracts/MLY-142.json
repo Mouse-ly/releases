@@ -1,0 +1,122 @@
+{
+  "schema_version": "TaskContract.v1",
+  "id": "MLY-142",
+  "created_at": "2026-08-22T04:00:00.000Z",
+  "source_revision": "c73ea1e51a06591bde21621aedd537f2eafb2fd6",
+  "redaction_state": "clear",
+  "source": {
+    "kind": "direct",
+    "id": "codex-thread-rollout-2026-08-22",
+    "instruction_authority": "task-request"
+  },
+  "request_receipt": {
+    "kind": "github-event",
+    "id": "pending:MLY-142",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "motivation": "Enable KARS and the Mousely Agent OS safely in this repository.",
+  "intent": "Install the reviewed MLY-142 repository baseline without changing product behavior.",
+  "organization": "Mouse-ly",
+  "project": "mousely-windows-app",
+  "repo": "mousely-windows-app",
+  "linear_issue": "MLY-142",
+  "outcome": "Repository-specific instructions, locked scoped context, skills, hooks, CI guards, contract, and verification documentation are committed and validated.",
+  "exclusions": [
+    "product behavior changes",
+    "deployment",
+    "release publication",
+    "credentials",
+    "unrelated cleanup"
+  ],
+  "acceptance_verifier": [
+    "TaskContract and RepoManifest schemas validate",
+    "generated context block matches the pinned lock",
+    "scope and secret guards pass",
+    "repository-specific verification documentation is accurate",
+    "final diff contains no product behavior change"
+  ],
+  "proof": [
+    "local contract/context validation output",
+    "git diff and whitespace checks",
+    "public leakage result when repository is public",
+    "pull request and exact commit"
+  ],
+  "capabilities": [
+    "node22",
+    "git",
+    "github",
+    "linear",
+    "runtime-control-boundary"
+  ],
+  "permitted_fallbacks": [],
+  "forbidden_substitutions": [
+    "dirty-user-worktree-for-fresh-clone",
+    "private-mousely-context-for-public-context",
+    "unregistered-side-project-for-mousely-repository"
+  ],
+  "partial_completion_policy": "allow-with-handoff",
+  "idempotency_key": "MLY-142:mousely-windows-app:agent-baseline-v1",
+  "agent_of_record": "codex",
+  "one_writer": true,
+  "interaction_mode": "interactive",
+  "target": {
+    "provider": "local",
+    "host": "kaden-macbook"
+  },
+  "base_branch": "main",
+  "base_branch_sha": "d24317fd9143120615676810485b14373012853b",
+  "dependencies": [
+    "Mouse-ly/mousely-ops@c73ea1e51a06591bde21621aedd537f2eafb2fd6"
+  ],
+  "edit_scope": {
+    "allowed_globs": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      ".agents/**",
+      ".cursor/**",
+      ".codex/**",
+      ".github/**",
+      ".mousely/**",
+      ".gitattributes",
+      "docs/ai/**",
+      "mousely.repo.yaml",
+      "mousely-context.lock"
+    ],
+    "forbidden_globs": [
+      ".env",
+      ".env.*",
+      "**/secrets/**",
+      "logs/**",
+      "src/**",
+      "app/**",
+      "MouseApp/**",
+      "assets/**",
+      "icons/**",
+      "other/**"
+    ],
+    "expected_change_classes": [
+      "documentation",
+      "configuration-ci"
+    ],
+    "changed_file_alert_threshold": 80,
+    "widening_gate": "human-only"
+  },
+  "budget": {
+    "maximum_iterations": 8,
+    "maximum_runtime_minutes": 120,
+    "maximum_same_failure_retries": 2,
+    "maximum_no_progress_rounds": 2
+  },
+  "ttl": "2026-09-21T04:00:00.000Z",
+  "initial_review_lanes": [
+    "engineering",
+    "dx",
+    "security-privacy",
+    "outside-adversarial"
+  ],
+  "human_gates": [
+    "merge",
+    "repository-owner control-plane approval"
+  ],
+  "decision_class": "reversible-technical"
+}
