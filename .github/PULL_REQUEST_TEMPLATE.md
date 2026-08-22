@@ -1,24 +1,17 @@
-<!-- Generated from Mouse-ly/mousely-ops@abafc75fcaf4c72fe7675425fe3529f9868a5ca5 -->
+## Public outcome
 
-## Outcome
+Describe the public documentation, artifact metadata, or reviewed release artifact being changed.
 
-Linear issue: MLY-###
+## Artifact evidence
 
-## Contract and scope
+- Platform and version/build identity:
+- Opaque source commit:
+- Checksum/signature/notarization evidence:
+- Download/install smoke result:
+- Supported updater window:
 
-- Committed task contract: `.mousely/contracts/MLY-###.json`
-- Context-lock revision: `windows-dist-context-v1`
-- Out-of-scope changes: none
+## Safety
 
-## Verification and proof
-
-- Deterministic checks:
-- Final commit reviewed:
-- Required review lanes:
-- Documentation impact:
-- Proof bundle:
-- Cleanup:
-
-## Human gates
-
-- [ ] No merge, deployment, release, publishing, signing, or external communication is implied by this PR.
+- [ ] No application source, internal repository identifier, internal task metadata, personal host data, credential, signing material, or private planning context is included.
+- [ ] `.github/scripts/public-release-safety.mjs` passes.
+- [ ] Publishing, asset replacement, signing, and rollout remain separately human-approved actions.

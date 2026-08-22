@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mousely Intake"
-  short_description: "Normalize and contract Mousely task intent"
-  default_prompt: "Use $mousely-intake to turn this request into an authorized, scoped task contract."

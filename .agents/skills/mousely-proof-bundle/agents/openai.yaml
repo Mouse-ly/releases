@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mousely Proof Bundle"
-  short_description: "Assemble exact-commit readiness evidence"
-  default_prompt: "Use $mousely-proof-bundle to assemble and verify evidence for this change."

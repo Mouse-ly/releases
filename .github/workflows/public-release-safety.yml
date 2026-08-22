@@ -1,0 +1,21 @@
+name: Public release safety
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  safety:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Check public release boundary
+        run: node .github/scripts/public-release-safety.mjs .
+      - name: Check whitespace
+        run: git diff --check HEAD^

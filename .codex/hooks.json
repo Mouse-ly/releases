@@ -1,4 +1,0 @@
-{
-  "description": "Project-local hooks are intentionally disabled. They are writer-writable and cannot authorize Mousely mutation. KARS must install the managed external hook described by Mouse-ly/mousely-ops@abafc75fcaf4c72fe7675425fe3529f9868a5ca5.",
-  "hooks": {}
-}
