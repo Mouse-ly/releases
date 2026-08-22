@@ -11,8 +11,8 @@
   },
   "request_receipt": {
     "kind": "github-event",
-    "id": "pending:MLY-142",
-    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    "id": "github-pr:Mouse-ly/mousely-windows-app#1:MLY-142",
+    "sha256": "c4c9c8758c08d4fc8017572c11a7cde8d6f9421e2866961780a1f321065edd4a"
   },
   "motivation": "Enable KARS and the Mousely Agent OS safely in this repository.",
   "intent": "Install the reviewed MLY-142 repository baseline without changing product behavior.",
