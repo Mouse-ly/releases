@@ -1,0 +1,34 @@
+name: Mousely public baseline
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate manifest and context lock
+        run: |
+          node .mousely/harness.mjs validate-contract mousely.repo.yaml
+          node .mousely/harness.mjs validate-contract mousely-context.lock
+          node .mousely/harness.mjs verify-context --lock mousely-context.lock --root . --repository-root .
+      - name: Verify public context isolation
+        run: node .mousely/public-leakage-check.mjs .
+      - name: Scan committed content for secrets
+        shell: bash
+        run: |
+          BASE="${{ github.event.pull_request.base.sha }}"
+          if [ -z "$BASE" ]; then BASE="${{ github.event.before }}"; fi
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then BASE="HEAD^"; fi
+          node .mousely/harness.mjs scan-secrets --repo . --base "$BASE"

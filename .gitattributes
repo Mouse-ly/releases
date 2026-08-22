@@ -1,0 +1,18 @@
+# Keep Mousely control/context text LF-stable across macOS, Linux, Windows, CI, Cloud, and local tools.
+# ContextLock checksum-protects managed files and the generated AGENTS.md policy block. Repository-owned text outside that block remains editable.
+AGENTS.md text eol=lf
+mousely.repo.yaml text eol=lf
+mousely-context.lock text eol=lf
+docs/ai/**/*.md text eol=lf
+.agents/**/*.md text eol=lf
+.agents/**/*.yaml text eol=lf
+.agents/**/*.yml text eol=lf
+.cursor/**/*.mdc text eol=lf
+.agents/rules/**/*.md text eol=lf
+.codex/**/*.json text eol=lf
+.mousely/*.mjs text eol=lf
+.mousely/contracts/*.json text eol=lf
+.mousely/contracts/*.json.example text eol=lf
+.github/**/*.md text eol=lf
+.github/**/*.yaml text eol=lf
+.github/**/*.yml text eol=lf
