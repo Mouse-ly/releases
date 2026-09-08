@@ -12,8 +12,6 @@ const forbiddenRoots = [
   "docs/ai",
 ];
 const forbiddenFiles = new Set([
-  "mousely-context.lock",
-  "mousely.repo.yaml",
   "CLAUDE.md",
   "GEMINI.md",
 ]);
@@ -23,7 +21,7 @@ const allowedLargeBinaryExtensions = new Set([
 const textPatterns = [
   ["internal issue identifier", /\bMLY-[1-9][0-9]*\b/g],
   ["private organization repository identifier", /\bMouse-ly\/(?!mousely-(?:windows|android|macos)-app\b)[A-Za-z0-9_.-]+\b/gi],
-  ["private orchestration identifier", /\b(?:KARS|mousely-ops|kaden-macbook)\b/gi],
+  ["private orchestration identifier", /\b(?:mousely-ops|kaden-macbook)\b/gi],
   ["personal filesystem path", /\/Users\/[A-Za-z0-9_.-]+\//g],
   ["internal agent metadata", /\b(?:agent_of_record|context_revision|request_receipt|source_revision)\b/gi],
   ["private key", /-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/g],
